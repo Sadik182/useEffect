@@ -4,7 +4,7 @@ import Child from "./Child";
 
 function Parent() {
   useEffect(() => {
-    console.log("Parent component mounted");
+    console.log("I am from Parent Component");
   }, []);
   return (
     <div>
